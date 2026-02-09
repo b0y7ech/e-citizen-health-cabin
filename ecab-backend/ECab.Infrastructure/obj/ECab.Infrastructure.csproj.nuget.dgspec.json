@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Infrastructure\\ECab.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\ECab.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\ECab.Application.csproj",
+        "projectName": "ECab.Application",
+        "projectPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\ECab.Application.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\ECab.Domain.csproj": {
+                "projectPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\ECab.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\ECab.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\ECab.Domain.csproj",
+        "projectName": "ECab.Domain",
+        "projectPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\ECab.Domain.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Infrastructure\\ECab.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Infrastructure\\ECab.Infrastructure.csproj",
+        "projectName": "ECab.Infrastructure",
+        "projectPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Infrastructure\\ECab.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\ECab.Application.csproj": {
+                "projectPath": "D:\\AntiGravity\\e-citizen-health-cabin\\ecab-backend\\ECab.Application\\ECab.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
